@@ -20,11 +20,11 @@ void readFromFile (char charArray[][MAX_COLS], int &numRows,
 	int &numCols, const char fileName[]);
 void displayArray (const char charArray[][MAX_COLS], int numRows,
 	int numCols);
-void getCodeKey (const char prompt[], char keys[]);
+void getCodeKey (const char prompt[], char codekey[]);
 void encode (char charArray[][MAX_COLS], int numRows, int numCols,
-	const char keys[]);
+	const char codekey[]);
 void decode (char charArray[][MAX_COLS], int numRows, int numCols,
-	const char keys[]);
+	const char codekey[]);
 void writeToFile (char charArray[][MAX_COLS], int &numRows,
 	int &numCols, const char fileName[]);
 /***********************************************************************
